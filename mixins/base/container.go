@@ -12,7 +12,7 @@ import (
 
 type ContainerNoControlOuter interface {
 	gxui.Container
-	outer.PaintChilder
+	outer.PaintChildren
 	outer.Painter
 	outer.LayoutChildren
 }
